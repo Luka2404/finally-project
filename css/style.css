@@ -1,14 +1,80 @@
 /*font-family: 'Rowdies', cursive;*/
 .nav{
     display: flex;
-    margin: 0 auto;
 }
 .logo{
+display: inline-block;
 width: 50px;
 height: 20px;
+margin: 0 auto;
 margin-right: 400px;
+margin-left: 200px
+}
+.bar-1{
+    display: none;
 }
 .c-li{
     margin-right: 40px;
     font-family: 'Rowdies', cursive;
+}
+.m-d{
+    margin: 0 auto;
+}
+/*section-1*/
+.text{
+    margin-left: 260px ;
+}
+.text-2{
+    margin-top: 25px;
+}
+.sec-1 {
+    margin-top: 50px; 
+    display: inline-block;
+}
+.sec-2 {
+    display: inline-block;
+}
+.f-div{
+    max-width: 406x;
+}
+
+
+
+/*footer*/
+
+.footer-wrapper {
+    padding: 80px 0;
+}
+
+.div-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-f-1>h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.div-f-1>p {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+    max-width: 260px;
+}
+
+.div-f-2 li {
+    font-size: 14px;
+    color: #5863F8;
+    margin-bottom: 15px;
+}
+
+.ul-footer> :first-child {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 25px;
+}
+.ul-footer{
+    cursor: pointer;
 }

@@ -1,0 +1,17 @@
+@media (max-width: 1310px){
+    li{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1100px){
+    .container-fluid{
+        width: 100% !important;
+    }
+    .bar-1{
+        display:inline-block;
+        margin: 20px;
+    }
+    .c-li{
+        display: none;
+    }
+}
