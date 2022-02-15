@@ -225,6 +225,91 @@
   -webkit-box-shadow: 5px 6px 14px -2px rgba(27, 201, 201, 0.72);
           box-shadow: 5px 6px 14px -2px rgba(27, 201, 201, 0.72);
 }
+/*section*/
+.both {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.box-title {
+    font-family: 'Rowdies', cursive;
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+    .top-card, .middle-card, .bottom-card {
+    display: flex;
+    margin-bottom: 55px;
+}
+.box-image {
+    width: 300px;
+    margin-right: 30px;
+}
+.all-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.key {
+    font-family: 'Rowdies', cursive;
+    font-size: 17px;
+    color: #E4003B;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.box-1-title {
+    font-family: 'Rowdies', cursive;
+    font-size: 36px;
+    color: #000000;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.section-text {
+    font-family: 'Rowdies', cursive;
+    font-size: 14px;
+    color: #000000;
+    width: 400px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.link-More {
+    font-family: 'Rowdies', cursive;
+    font-size: 17px;
+    color: #000000;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+.all-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.right-2{
+    margin-top: 200px;
+    margin-left: 10px;
+}
+.right-side-title {
+    font-family: 'Rowdies', cursive;
+    font-size: 60px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.right-side-title-2 {
+    font-family: 'Rowdies', cursive;
+    font-size: 36px;
+    color: #000000;
+    font-weight: 300;
+    width: 400px;
+    margin-bottom: 25px;
+}
+
 /*footer*/
 
 .footer-wrapper {
