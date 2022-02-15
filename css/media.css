@@ -15,7 +15,6 @@
 
     .burger-bar {
         display: block;
-        color: lightcoral;
     }
 
     .img-s-1 > h1 {
@@ -32,7 +31,7 @@
 
 }
 
-@media (max-widht: 480px) {
+@media (max-width: 480px) {
     .img-s-1 > h1 {
         font-size: 25px;
     }
@@ -42,4 +41,10 @@
 
 
 
+}
+
+@media (max-width: 1060px){
+    .first:first-child{
+        margin-left: 20px ;
+    }
 }
