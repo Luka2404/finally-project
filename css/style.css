@@ -1,47 +1,127 @@
-/*font-family: 'Rowdies', cursive;*/
-.nav{
-    display: flex;
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 30px 0;
+	
 }
-.logo{
-display: inline-block;
-width: 50px;
-height: 20px;
-margin: 0 auto;
-margin-right: 400px;
-margin-left: 200px
+/*header*/
+
+
+.header-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 100px;
+
 }
-.bar-1{
+
+.burger-bar {
     display: none;
 }
-.c-li{
-    margin-right: 40px;
-    font-family: 'Rowdies', cursive;
+
+.nav-ul{
+	display: flex;
+
 }
-.m-d{
-    margin: 0 auto;
+.nav-ul > li {
+	color: #303134;
+	font-size: 16px;
+	font-family: "Raleway", sans-serif;
 }
-/*section-1*/
-.text{
-    margin-left: 260px ;
+.nav-ul > li:not(:last-child) {
+    margin-right: 20px;
 }
-.text-2{
-    margin-top: 25px;
+
+/*section 1*/
+
+.img-s-1{
+	background-color: lightblue;
+	background-image: url(../images/cover.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.sec-1 {
-    margin-top: 50px; 
-    display: inline-block;
+
+.h1-s-1{
+	font-size: 79px;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+	font-family: "Raleway", sans-serif;
+	margin-bottom: 45px;
 }
-.sec-2 {
-    display: inline-block;
+
+.h4-s-1{
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	display: block;
 }
-.f-div{
-    max-width: 406x;
+
+/* section 2*/
+
+.s-2-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	padding: 30px 100px;
+
+}
+.div-left{
+	padding-bottom: 30px;
+
+}
+.div-right{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.card{
+	width: 269px;
+	height: 329px;
+	margin-right: 40px;
+}
+
+.h5-s-2{
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	color: #8D8D8D;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.h3-s-2{
+	font-family: "Raleway", sans-serif;
+	font-size: 26px;
+	color: #1A1A1B;
+	font-weight: bold;
+	margin-bottom: 40px;
+
+}
+.p-s-2{
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	color: #8D8D8D;
 }
 
 
-
+.h4-s-2{
+	font-family: "Raleway", sans-serif;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
 /*footer*/
-
 .footer-wrapper {
     padding: 80px 0;
 }
