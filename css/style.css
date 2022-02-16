@@ -22,12 +22,13 @@
 
 .nav-ul{
 	display: flex;
+    font-family: 'Rowdies', cursive;
 
 }
 .nav-ul > li {
 	color: #303134;
 	font-size: 16px;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Rowdies', cursive;
 }
 .nav-ul > li:not(:last-child) {
     margin-right: 20px;
@@ -121,27 +122,27 @@
 	margin-top: 25px;
 	margin-bottom: 15px;
 }
-/*section-2*/
+/*section-3*/
 .s-2-d{
     margin-top: 300px;
 }
 .first:first-child{
-    margin-left: 100px ;
+    margin-left: 120px ;
 }
 .first {
     display: flex;
     flex-wrap: wrap;
-    width: 300px;
+    width: 272px;
 	height: 450px;
 	margin-top: 40px;
-	margin-left: 25px;
+	margin-left: 60px;
 	margin-bottom: 100px;
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
 
 }
-/*section-3*/
+/*section-4*/
 .s-7 {
   max-width: 1170px;
   width: 100%;
@@ -225,7 +226,7 @@
   -webkit-box-shadow: 5px 6px 14px -2px rgba(27, 201, 201, 0.72);
           box-shadow: 5px 6px 14px -2px rgba(27, 201, 201, 0.72);
 }
-/*section*/
+/*section-5*/
 .both {
     display: flex;
     justify-content: space-between;
@@ -284,11 +285,18 @@
     text-transform: uppercase;
 
 }
+
 .all-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
+}
+.left-side{
+    margin:auto;
+}
+.right-side{
+    margin-left: 10px;
 }
 .right-2{
     margin-top: 200px;
@@ -309,11 +317,21 @@
     width: 400px;
     margin-bottom: 25px;
 }
-
+/*section-6*/
+.images{
+    margin: 50px;
+}
+.images-2:last-child{
+    margin-left: 30px;
+}
+.images-2{
+    margin: 20px;
+}
 /*footer*/
 
 .footer-wrapper {
     padding: 80px 0;
+    background-image: url(../images/footer.jpg);
 }
 
 .div-footer {
