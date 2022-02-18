@@ -140,7 +140,7 @@ html{
     width: 272px;
 	height: 450px;
 	margin-top: 40px;
-	margin-left: 60px;
+	margin-left: 20px;
 	margin-bottom: 100px;
 	display: inline-block;
 	vertical-align: middle;
@@ -296,7 +296,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    
 }
 .left-side{
     margin:auto;
